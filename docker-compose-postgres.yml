@@ -4,7 +4,7 @@ services:
   db:
     image: postgres
     volumes:
-      - dbdata:/var/lib/mysql
+      - dbdata:/usr/local/pgsql/data
     environment:
       - MYSQL_ROOT_PASSWORD=postgres
       - POSTGRES_USER=postgres

@@ -1,10 +1,10 @@
-version: '3'
+version: '3.8'
 services:
 
-  db:
+  postgres:
     image: postgres
     volumes:
-      - dbdata:/usr/local/pgsql/data
+      - postgres_data:/usr/local/pgsql/data
     environment:
       - MYSQL_ROOT_PASSWORD=postgres
       - POSTGRES_USER=postgres
@@ -13,4 +13,4 @@ services:
       - "5432:5432"
 
 volumes:
-  dbdata:
+  postgres_data:

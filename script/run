@@ -1,0 +1,8 @@
+# !/usr/bin/env bash
+set -euo pipefail
+
+: ${DOCKER_COMPOSE_FILE:="$(dirname $0)/../docker-compose.yml"}
+
+echo $DOCKER_COMPOSE_FILE
+
+docker compose -f "$DOCKER_COMPOSE_FILE" up -d postgres

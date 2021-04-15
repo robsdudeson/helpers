@@ -22,5 +22,5 @@ I doubt I'll have many takers on this, but feel free to open an issue and cut a 
 
 ## usage
 
-Feel free to use this for anything you might need, but understand that I offer no support for you use of the thing, explicit or implied.  I'd ask that you send me a shout out, but its not required.
+Feel free to use this for anything you might need, but understand that I offer no support for your use of the thing, explicit or implied.  I'd ask that you send me a shout out, but its not required.
 
